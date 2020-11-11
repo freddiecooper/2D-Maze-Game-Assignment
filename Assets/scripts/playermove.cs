@@ -13,7 +13,7 @@ public class playermove : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float xVelocity=0;
         float yVelocity=0;
