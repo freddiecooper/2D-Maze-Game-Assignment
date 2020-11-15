@@ -6,6 +6,10 @@ TagManager:
   tags:
   - chicken
   - player
+  - key
+  - enemy
+  - door
+  - golden skull
   layers:
   - Default
   - TransparentFX
@@ -17,7 +21,7 @@ TagManager:
   - 
   - walls
   - background
-  - 
+  - minimap
   - 
   - 
   - 
