@@ -115,11 +115,8 @@ public class playermove : MonoBehaviour
 
             if(other.gameObject.CompareTag("golden skull"))
             {
-                winner.text = "well done you successfully collected the Golden Skull!";
-                if(other.gameObject.CompareTag("enemy"))
-                    {
-                     Destroy(other.gameObject);
-                    }
+                winner.text = "Well done you successfully collected the Golden Skull!";
+                Destroy(other.gameObject);
 
             }
         }
